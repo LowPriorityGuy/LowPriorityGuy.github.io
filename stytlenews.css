@@ -1,0 +1,8 @@
+.updates__block {
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.updates__img img {
+    width: 50%;
+}

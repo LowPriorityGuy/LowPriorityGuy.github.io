@@ -5,12 +5,14 @@
 }
 
 body, html{
+     /* height: 100%;  */
     background: #120f1c;
     background-clip: border-box;
     scroll-behavior: smooth;
-    /* min-height: 100%;
+     min-height: 100%;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    /*flex-wrap: wrap;
     flex-direction: row; */
 }
 
@@ -355,6 +357,17 @@ h2 {
     flex-direction: row;
     align-items: center;
 }
+
+/* .footer__inner {
+    position: fixed;
+    bottom: 50px;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: flex-start;
+  } */
 
 .footer__title {
     font-family: Oxanium,sans-serif;
